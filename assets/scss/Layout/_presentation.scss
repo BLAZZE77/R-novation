@@ -1,0 +1,33 @@
+
+
+@use '../abstracts/variables' as var;
+
+
+.presentation {
+  .presentationcontainer {
+    .presentationtitre {
+      text-align: center;
+      .presentationcomp {
+        margin: 0.4em 0 0;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+      }
+      .presentationcontent {
+        font-size: 1.1rem;
+        line-height: 3em;
+      }
+    }
+
+    .presentationcardcont {
+      display: flex;
+      flex-direction: row;
+      .presentationcard {
+        padding: 1.3em;
+        width: 100%;
+      }
+    }
+    .presentationbtn {
+      text-align: center;
+    }
+  }
+}

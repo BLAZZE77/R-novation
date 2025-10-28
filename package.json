@@ -4,11 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass -w assets/scss:assets/css"
+    "sass": "sass -w assets/scss:assets/css" 
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "sass": "^1.93.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BLAZZE77/R-novation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BLAZZE77/R-novation/issues"
+  },
+  "homepage": "https://github.com/BLAZZE77/R-novation#readme"
 }

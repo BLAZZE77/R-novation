@@ -1,0 +1,28 @@
+@use  "../abstracts/variables" as var;  
+
+header { 
+     background-color: var.$couleurprincipale;
+     background-size: cover;
+     justify-content: space-between;
+     align-items: center;
+     display: flex;
+     padding: 2em 9em;
+     .headerlogo {
+     display: flex;
+     }
+
+     .navtexte {
+        width: 70%;
+        display: flex;
+        gap: 1vh;
+        align-items: center;  
+        position : relative
+
+        a {
+            font-family: var.$fontregular,sans-serif;
+        }
+     }    
+
+
+}
+

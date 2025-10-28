@@ -1,3 +1,134 @@
+body {
+  margin: 0;
+}
 
+li {
+  list-style: none;
+  list-style-type: none;
+}
+
+a:hover, a:visited, a:link, a, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "leto regular";
+  src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: "leto bold";
+  src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+.container {
+  margin-left: 20px;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 22px;
+}
+
+.gallery {
+  margin-top: 10em;
+}
+.gallery .gallerycont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 8em;
+}
+.gallery .gallerycont h2 {
+  text-align: center;
+}
+.gallery .gallerycont .gallerysubtitle {
+  margin: 0.4em 0 0;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.gallery .gallerycardcont {
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap: 2em;
+}
+.gallery .gallerycardcont .gallerycard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 4em;
+}
+.gallery .gallerycardcont .gallerycard img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.gallery .gallerycardcont .gallerycard p {
+  margin-top: 0;
+}
+
+header {
+  background-color: #122E3E;
+  background-size: cover;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 2em 9em;
+}
+header .headerlogo {
+  display: flex;
+}
+header .navtexte {
+  width: 70%;
+  display: flex;
+  gap: 1vh;
+  align-items: center;
+  position: relative a;
+  position-font-family: "leto regular", sans-serif;
+}
+
+.hero {
+  background-image: url(../img/PHOTO-BUEAU.jpg);
+  padding: 200px 0;
+}
+.hero .container {
+  color: white;
+  font-family: "leto regular";
+  position: relative;
+  margin-left: 200px;
+  letter-spacing: 2px;
+}
+.hero .container .titleherocolor {
+  color: gold;
+  font-family: "leto bold";
+}
+
+/* DESCRIPTION */
+.presentation .presentationcontainer .presentationtitre {
+  text-align: center;
+}
+.presentation .presentationcontainer .presentationtitre .presentationcomp {
+  margin: 0.4em 0 0;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+.presentation .presentationcontainer .presentationtitre .presentationcontent {
+  font-size: 1.1rem;
+  line-height: 3em;
+}
+.presentation .presentationcontainer .presentationcardcont {
+  display: flex;
+  flex-direction: row;
+}
+.presentation .presentationcontainer .presentationcardcont .presentationcard {
+  padding: 1.3em;
+  width: 100%;
+}
+.presentation .presentationcontainer .presentationbtn {
+  text-align: center;
+}
 
 /*# sourceMappingURL=main.css.map */
